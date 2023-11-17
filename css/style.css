@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 78px 18px 99px;
+
+}
+ul {
+    cursor: pointer;
+    display: flex;
+    gap: 50px;
+    color: #636060;
+    font-size: 17px;
+    font-weight: 400;
+}
+.Greece {
+    height: 606PX;
+    background-image: url("/Rectangle 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.Greece>h2 {
+    font-size: 79px;
+    font-weight: 700;
+    margin-bottom: 31px;
+}
+.Greece>p {
+    font-size: 19px;
+}
+.sia {
+    display: flex;
+    padding: 84px 98px 140px 100px;
+    column-gap: 83px;
+    justify-content: center;
+}
+aside .Discover  {
+    font-size: 17px;
+    color: #636060;
+    margin-bottom: 9px;
+}
+aside h4 {
+    font-size: 28px;
+    color: #010101;
+    margin-bottom: 37px;
+}
+aside p {
+        font-size: 20px;
+        color: #636060;
+        line-height: 23px;
+}
+aside {
+    width: 235px;
+}
+.article-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 56px 33px;
+    width: 924px;
+}
+.article-box article {
+    width: 286px;
+}
+.article-box article img {
+    height: 195px;
+    margin-bottom: 23px;
+}
+.article-box h3 {
+    font-weight: normal;
+    color: #343232;
+    font-size: 19px;
+    margin-bottom: 9px;
+}
+.article-box p {
+    line-height: 20.7px;
+    color: #636060;
+    font-size: 18px;
+}
